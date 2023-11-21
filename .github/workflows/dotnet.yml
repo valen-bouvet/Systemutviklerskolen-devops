@@ -32,7 +32,7 @@ jobs:
       working-directory: systemutviklerskolen-todo-app-backend/
 
     - name: Use node
-      uses: actions/seup-node@v1
+      uses: actions/setup-node@v1
       with:
         node-version: 14.x
 
